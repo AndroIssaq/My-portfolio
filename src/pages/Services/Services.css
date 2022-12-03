@@ -1,0 +1,103 @@
+.head-title h1{
+    color:#00d09c;
+}
+.services{
+    background: linear-gradient(120deg,#eaf8ff,#f6f6ff);
+}
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition-duration: .3s;
+    background-color: #eeeefd00;
+}
+.card:first-child{
+    border-radius: 36% 64% 44% 56% / 47% 66% 34% 53%  ;
+}
+
+.card:nth-child(2){
+    border-radius: 67% 33% 44% 56% / 47% 66% 34% 53%  ;
+}
+
+.card:nth-child(3){
+    border-radius: 51% 49% 47% 53% / 61% 58% 42% 39%   ;
+}
+.card:nth-child(5){
+    border-radius: 36% 64% 44% 56% / 47% 66% 34% 53%  ;
+}
+
+.card:nth-child(4){
+    border-radius: 51% 49% 47% 53% / 61% 58% 42% 39%   ;
+}
+
+.card:last-child{
+    border-radius: 36% 64% 44% 56% / 47% 66% 34% 53%  ;
+}
+
+
+
+.card:first-child .icon{
+    background: linear-gradient(180deg,#ebfffd,#efeefa);
+}
+
+.card:nth-child(2) .icon{
+    background: linear-gradient(180deg,#fef7e2,#eeeefd);
+}
+
+.card:nth-child(3) .icon{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.card:nth-child(5) .icon{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
+
+}
+
+.card:nth-child(4) .icon{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    
+}
+
+.card:last-child .icon{
+    background-color: #74EBD5;
+background-image: linear-gradient(180deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+.card:hover{
+    border-radius: 36% 50% 44% 56% / 47% 55% 55% 53%  ;
+}
+.learn{
+    position: relative;
+}
+.card:hover .learn span {
+    width: 100%;
+}
+.learn span{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0%;
+    background: rgb(198, 25, 198);
+    transition: .5s;
+}
+.shine1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: white;
+    top: 20%;
+    left: 15%;
+}
+.shine2{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: white;
+    top: 32%;
+    left: 25%;
+}

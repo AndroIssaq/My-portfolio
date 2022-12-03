@@ -1,0 +1,11 @@
+main{
+    background: linear-gradient(180deg,#eaf8ff,#f6f6ff);
+}
+.cv
+.cv::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.87);
+    font-synthesis: none;
+   
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+}
+p{
+    color: #52526c !important;
+}
+h1{
+    color:  #000248 !important;
+}
+.container{
+    width: 85% !important;
+    margin: auto; 
+}
+
+img{
+    pointer-events: none;
+}
+

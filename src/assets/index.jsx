@@ -1,0 +1,17 @@
+import blog1 from './blog_post_1.jpg'
+import blog2 from './blog_post_2.jpg'
+import blog3 from './blog_post_3.jpg'
+import blog4 from './blog_post_4.jpg'
+import happy1 from './happy.jpg'
+import happy2 from './happy2.jpg'
+import happy3 from './happy3.jpg'
+import happy4 from './happy4.jpg'
+import work1 from './work.jpg'
+import work2 from './work2.jpg'
+import work3 from './work3.jpg'
+import work4 from './work4.jpg'
+import post1 from './blog-1.jpg'
+import post2 from './blog-2.jpg'
+import post3 from './blog-3.jpg'
+
+export {blog1,blog2,blog3,blog4,post1,post2,post3,happy1,happy2,happy3,happy4,work1,work2,work3,work4}

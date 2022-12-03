@@ -1,0 +1,25 @@
+.logo-container{
+    transition: .3s ease;
+}
+
+.logo-container:hover span:nth-child(2){
+    transition: .3s ease;
+}
+.logo-container:hover span:first-child{
+    transition: .3s ease;
+}
+.logo-container:hover span:nth-child(2){
+    left: 21px;
+    bottom: 21px;
+    width: 18px;
+    height: 18px;
+    transition-delay: .5s;
+}
+
+.logo-container:hover span:first-child{
+    font-size: 60px;
+}
+
+.links ul {
+    
+}
